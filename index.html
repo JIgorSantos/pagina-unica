@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Web</title>
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- AOS ANIMATE -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- LIGHTBOX -->
+  <link rel="stylesheet" href="css/lightbox.css">
+    
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- INÍCIO BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-empresa">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <i class="fas fa-handshake fa-2x"></i> Marketing Web</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Planos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- FINAL BARRA DE NAVEGAÇÃO -->
+
+    <h1 class="ms-5">Marketing Web</h1>
+    <p class="ms-5">Desenvolvido por Igor Santos</p>
+
+    <!-- CAROUSEL D-NONE D-MD-BLOCK MOSTRA O CAROUSEL SOMENTE EM TABLETS OU TELAS MAIORES -->
+    <div id="carousel-destaques" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-destaques" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-destaques" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel-destaques" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/coffee.jpg" class="d-block w-100" alt="um homem negro segurando um copo de café">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/sound.jpg" class="d-block w-100" alt="uma caixa de som em cima da mesa">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/workbench.jpg" class="d-block w-100" alt="máquina de escrever e livros em cima de uma mesa de madeira">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-destaques" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-destaques" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    <!-- FINAL CAROUSEL -->
+
+    <!-- SEÇÃO SERVIÇOS -->
+    <div id="servicos" class="mt-5 container" data-aos="fade-right" data-aos-delay="100">
+      <h2 class="titulo text-center mb-3">Nossos Serviços</h2>
+
+      <div class="row">
+        <div class="col-md bg-secondary">
+            <h3 class="text-center">Design</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+        </div>
+        <div class="col-md bg-empresa">
+          <h3 class="text-center">Marca</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+        </div>
+        <div class="col-md bg-secondary">
+          <h3 class="text-center">Consultoria</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+        </div>
+        <div class="col-md bg-empresa">
+          <h3 class="text-center">Compromisso</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eius consequatur cumque soluta perspiciatis corrupti at quas magnam. Quasi, voluptatum repellendus fugit corporis architecto numquam voluptate iure illum fuga?</p>
+        </div>
+      </div>
+
+      
+  </div>
+    <!-- FINAL SEÇÃO SERVIÇOS -->
+
+    
+    <!-- QUANDO COLOCAR PALAVRAS EM NEGRITO, USAR A TAG <STRONG>, A TAG <B> ENTRARÁ EM DESUSO -->
+    <!-- seção planos -->
+    <div id="planos" class="container mt-5" data-aos="fade-left" data-aos-delay="100">
+      <h2 class="titulo text-center mb-3">Nossos Planos</h2>
+      <p class="text-center">Consulte nossos planos e preços</p>
+
+      <div class="row">
+        <div class="col-md mt-3">
+          <div class="card">
+            <div class="card-header text-center">
+              Básico
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item"><b>10GB</b> Armazenamento</li>
+                <li class="list-group-item"><b>10</b> Email</li>
+                <li class="list-group-item"><b>10</b> Dominios</li>
+                <li class="list-group-item">Suporte <b>Ilimitado</b> </li>
+                <li class="list-group-item"><b>R$ 10</b> Mensal</li>
+              </ul>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary">Assinar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md mt-3">
+          <div class="card">
+            <div class="card-header text-center">
+              Pró
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush text-center bg-pro">
+                <li class="list-group-item"><b>25GB</b> Armazenamento</li>
+                <li class="list-group-item"><b>25</b> Email</li>
+                <li class="list-group-item"><b>25 </b>Dominios</li>
+                <li class="list-group-item">Suporte <b>Ilimitado</b> </li>
+                <li class="list-group-item"><b>R$ 25</b> Mensal</li>
+              </ul>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary">Assinar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md mt-3">
+          <div class="card">
+            <div class="card-header text-center">
+              Premium
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item"><b>50GB</b> Armazenamento</li>
+                <li class="list-group-item"><b>50</b> Email</li>
+                <li class="list-group-item"><b>50</b> Dominios</li>
+                <li class="list-group-item">Suporte <b>Ilimitado</b> </li>
+                <li class="list-group-item"><b>R$ 50</b> Mensal</li>
+              </ul>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary">Assinar</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- final seção planos -->
+
+    <!-- SEÇÃO EQUIPE -->
+    <div id="equipe" class="mt-5 container">
+      <h2 class="titulo mb-3">Nossa Equipe</h2>
+      <div class="row">
+        <div class="col-md mt-3" data-aos="fade-up-right">
+          <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 26rem;">
+        <img src="imagens/team1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title text-center">Lilian Silva</h5>
+          <p>Diretora de Criação</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, itaque modi architecto assumenda voluptatem debitis sequi molestiae magni fugiat sit veritatis pariatur maxime quas commodi.</p>
+          <a href="#" class="btn btn-secondary w-100">Contato</a>
+        </div>
+      </div>
+        </div>
+
+        <div class="col-md mt-3" data-aos="fade-up-right" data-aos-delay="400">
+          <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 26rem;">
+        <img src="imagens/team2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title text-center">Jorge Mattar</h5>
+          <p>Coordenador de Equipes</p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium hic iure non qui repellendus nisi accusamus nam dolor sit ipsa cum ducimus optio, culpa quod distinctio illo aperiam, dolorum obcaecati.</p>
+          <a href="#" class="btn btn-secondary w-100">Contato</a>
+        </div>
+      </div>
+        </div>
+
+        <div class="col-md mt-3" data-aos="fade-up-right" data-aos-delay="800">
+          <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 26rem;">
+        <img src="imagens/team3.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title text-center">Guilherme Henrique</h5>
+          <p>Ceo e Fundador</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, molestias maxime eaque error ad vero minus sit totam voluptatum optio. Incidunt corporis illum qui dolorem inventore sed, harum non quo!</p>
+          <a href="#" class="btn btn-secondary w-100">Contato</a>
+        </div>
+        </div>
+        
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- FINAL SEÇÃO EQUIPE -->
+
+    <!-- SEÇÃO PORTFÓLIO -->
+    <div id="portfolio" class="mt-5 text-center" data-aos="zoom-in">
+      <h2 class="mb-3 text-center titulo">Portfólio</h2>
+      <a href="imagens/img-grande-1.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-1.jpg" alt=""></a>
+      <a href="imagens/img-grande-2.png" data-lightbox="roadtrip"><img src="imagens/miniatura-2.jpg" alt=""></a>
+      <a href="imagens/img-grande-3.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-3.jpg" alt=""></a>
+      <a href="imagens/img-grande-4.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-4.jpg" alt=""></a>
+      <a href="imagens/img-grande-5.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-5.jpg" alt=""></a>
+      <a href="imagens/img-grande-6.jpg" data-lightbox="roadtrip"><img src="imagens/miniatura-6.jpg" alt=""></a>
+    </div>
+    <!-- FINAL SEÇÃO PORTFÓLIO  -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- AOS ANIMATE -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- LIGHTBOX -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/lightbox.js"></script>
+    
+    <script src="js/code.js"></script>
+</body>
+</html>

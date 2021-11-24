@@ -1,0 +1,48 @@
+body{
+    margin-top: 70px;
+}
+
+.bg-empresa{
+    background-color: rgb(63, 176, 241);
+}
+
+.navbar{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#carousel-destaques{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo{
+    border-bottom: 8px solid #777;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* colocar uma caixa transparente no carousel */
+.carousel-caption{
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgba(10, 0, 0, 0.267);
+}
+
+/* colocar sombra no texto do carousel 
+ .carousel-caption h5, .carousel-caption p{
+    text-shadow: 2px 2px 0px #000;
+} */
+
+#planos .card-header{
+    background-color: #777;
+    color: white;
+    padding: 18px;
+}
+
+.bg-pro{
+    background-color: #888;
+}
+
+
+
